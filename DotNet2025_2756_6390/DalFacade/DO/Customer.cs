@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DO
 {
-    record Customer(string CustomerId, string Name, string Address, string PhoneNumber)
+  public  record Customer(string CustomerId, string Name, string Address, string PhoneNumber)
     {
     }
 }

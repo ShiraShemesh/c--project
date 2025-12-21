@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DO
 {
-    record productProduct(int ProductId, string Name, Categories Category, double Price, int QuantityInStock)
+  public  record productProduct(int ProductId, string Name, Categories Category, double Price, int QuantityInStock)
     {
 
 
