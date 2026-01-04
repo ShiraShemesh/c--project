@@ -1,37 +1,46 @@
-﻿namespace dalList;
-using DO;
+﻿using Dal;
 using DalApi;
-using System.Collections.Generic;
+using DO;
 
+namespace dalList;
 internal class CustomerImplementation : ICustomer
 {
-    public  int Create(Customer item)
+    public int Create(Customer item)
     {
-        for (int i = 0; i <  ; i++)
-        {
-            
-        }
-        return 0;
-    }
-
-    public void Delete(int id)
-    {
-        throw new NotImplementedException();
+        int itemIndex = DataSource.Customers.FindIndex(p => p.CustomerId == item.CustomerId);
+        if (itemIndex > 0)
+            throw new IdExisteFoundExcptions($"Customer with Id {item.CustomerId} exists");
+        DataSource.Customers.Add(item);
+        return item.CustomerId;
     }
 
     public Customer? Read(int id)
     {
-        throw new NotImplementedException();
+        Customer item = DataSource.Customers.Find(p => p?.CustomerId == id);
+        return item;
     }
 
-    public List<Customer> ReadAll()
+    public List<Customer?> ReadAll()
     {
-        throw new NotImplementedException();
+        return DataSource.Customers;
     }
 
     public void Update(Customer item)
     {
-        throw new NotImplementedException();
+        int itemIndex = DataSource.Customers.FindIndex(p => p?.CustomerId == item.CustomerId);
+        if (itemIndex == -1)
+            throw new IdNotFoundExcptions($"Customer with Id {item.CustomerId} not found.");
+        DataSource.Customers[itemIndex] = item;
     }
+
+    public void Delete(int id)
+    {
+        int itemIndex = DataSource.Customers.FindIndex(p => p?.CustomerId == id);
+        if (itemIndex == -1)
+            throw new IdNotFoundExcptions($"Customer with Id {id} not found.");
+        DataSource.Customers.RemoveAt(itemIndex);
+    }
+
+
 }
 

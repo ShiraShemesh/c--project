@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 
-namespace DO
+namespace DO;
+
+public record Customer(int CustomerId, string Name, string Address, string PhoneNumber)
 {
-  public  record Customer(string CustomerId, string Name, string Address, string PhoneNumber)
+    public Customer() : this(0, "", "", "")
     {
     }
+
+    public override string ToString()
+    {
+        return $"Customer ID: {this.CustomerId}, name: {this.Name}, Address: {this.Address}, PhoneNumber: {this.PhoneNumber}";
+    }
 }
+
+

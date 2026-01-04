@@ -1,12 +1,11 @@
 ﻿using DO;
-
 namespace Dal;
 
 internal static class DataSource
 {
-    internal static List<DO.Customer> Customers = new List<DO.Customer>();
-    internal static List<DO.productProduct> productProducts = new List<DO.productProduct>();
-    internal static List<DO.Sale> Sales = new List<DO.Sale>();
+    internal static List<Customer> Customers = new List<Customer>();
+    internal static List<Product> Products = new List<Product>();
+    internal static List<Sale> Sales = new List<Sale>();
 }
 internal static class Config
 {
@@ -22,13 +21,6 @@ internal static class Config
     public static int SaleIdCounter
     {
         get { return ++saleIdCounter; }
-
-    }
-    internal const int CustomerID = 1;
-    private static int customerIdCounter = CustomerID;
-    public static int CustomerIdCounter
-    {
-        get { return ++customerIdCounter; }
 
     }
 }

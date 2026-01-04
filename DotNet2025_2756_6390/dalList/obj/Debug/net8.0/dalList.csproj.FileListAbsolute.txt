@@ -1,0 +1,16 @@
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.csproj.AssemblyReference.cache
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.AssemblyInfoInputs.cache
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.AssemblyInfo.cs
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.sourcelink.json
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\dalList.deps.json
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\dalList.dll
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\dalList.pdb
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\DalFacade.dll
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.csproj.Up2Date
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.dll
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\refint\dalList.dll
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.pdb
+C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\ref\dalList.dll
