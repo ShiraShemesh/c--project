@@ -1,6 +1,4 @@
 ﻿
-using System;
-using System.Collections.Generic;
 using Dal;
 using DalApi;
 using dalList;
@@ -128,6 +126,8 @@ internal class Program
     // ----- CRUD input helpers -----
     private static void CreateCustomer(ICustomer repo)
     {
+        Console.Write("Id: ");
+        var customerId = ReadInt(Console.ReadLine());
         Console.Write("Name: ");
         var name = Console.ReadLine() ?? string.Empty;
         Console.Write("Address: ");
@@ -135,7 +135,7 @@ internal class Program
         Console.Write("Phone: ");
         var phone = Console.ReadLine() ?? string.Empty;
 
-        var id = repo.Create(new Customer { CustomerId = 0, Name = name, Address = addr, PhoneNumber = phone });
+        var id = repo.Create(new Customer { CustomerId = customerId, Name = name, Address = addr, PhoneNumber = phone });
         Console.WriteLine($"Created customer id: {id}");
     }
 
