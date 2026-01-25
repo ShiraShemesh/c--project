@@ -26,18 +26,19 @@ internal class SaleImplementation : ISale
 
     public void Update(Sale item)
     {
-        int itemIndex = DataSource.Sales.FindIndex(p => p?.SaleId == item.SaleId);
-        if (itemIndex == -1)
-            throw new IdNotFoundExcptions($"Sale with Id {item.SaleId} not found.");
-        DataSource.Sales[itemIndex] = item;
+        Delete(item.SaleId);
+        Create(item);
     }
 
     public void Delete(int id)
     {
-        int itemIndex = DataSource.Sales.FindIndex(p => p?.SaleId == id);
-        if (itemIndex == -1)
+        var found = DataSource.Sales
+              .Select((s, idx) => new { s, idx })
+              .Where(x => x.s?.SaleId == id)
+              .FirstOrDefault();
+        if (found is null)
             throw new IdNotFoundExcptions($"Sale with Id {id} not found.");
-        DataSource.Sales.RemoveAt(itemIndex);
+        DataSource.Sales.RemoveAt(found.idx);
     }
 
 }

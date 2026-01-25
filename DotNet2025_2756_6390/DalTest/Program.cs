@@ -1,5 +1,4 @@
-﻿
-using Dal;
+﻿using Dal;
 using DalApi;
 using dalList;
 using DO;
@@ -34,7 +33,7 @@ internal class Program
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"An error occurred: {ex}");
+            Console.WriteLine($"An error occurred: {ex.Message}");
         }
     }
 

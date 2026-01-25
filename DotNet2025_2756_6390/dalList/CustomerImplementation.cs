@@ -1,7 +1,6 @@
 ﻿using Dal;
 using DalApi;
 using DO;
-
 namespace dalList;
 internal class CustomerImplementation : ICustomer
 {
@@ -27,20 +26,21 @@ internal class CustomerImplementation : ICustomer
 
     public void Update(Customer item)
     {
-        int itemIndex = DataSource.Customers.FindIndex(p => p?.CustomerId == item.CustomerId);
-        if (itemIndex == -1)
-            throw new IdNotFoundExcptions($"Customer with Id {item.CustomerId} not found.");
-        DataSource.Customers[itemIndex] = item;
+        Delete(item.CustomerId);
+        Create(item);
     }
 
     public void Delete(int id)
     {
-        int itemIndex = DataSource.Customers.FindIndex(p => p?.CustomerId == id);
-        if (itemIndex == -1)
+        var found = DataSource.Customers
+            .Select((c, idx) => new { c, idx })
+            .Where(x => x.c?.CustomerId == id)
+            .FirstOrDefault();
+
+        if (found is null)
             throw new IdNotFoundExcptions($"Customer with Id {id} not found.");
-        DataSource.Customers.RemoveAt(itemIndex);
+        DataSource.Customers.RemoveAt(found.idx);
     }
 
 
 }
-

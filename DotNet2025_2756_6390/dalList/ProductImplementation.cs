@@ -27,18 +27,18 @@ internal class ProductImplementation : IProduct
 
     public void Update(Product item)
     {
-        int itemIndex = DataSource.Products.FindIndex(p => p?.ProductId == item.ProductId);
-        if (itemIndex == -1)
-            throw new IdNotFoundExcptions($"Product with Id {item.ProductId} not found.");
-        DataSource.Products[itemIndex] = item;
+        Delete(item.ProductId);
+        Create(item);
     }
-
     public void Delete(int id)
     {
-        int itemIndex = DataSource.Products.FindIndex(p => p?.ProductId == id);
-        if (itemIndex == -1)
+        var found = DataSource.Products
+              .Select((p, idx) => new { p, idx })
+              .Where(x => x.p?.ProductId == id)
+              .FirstOrDefault();
+        if (found is null)
             throw new IdNotFoundExcptions($"Product with Id {id} not found.");
-        DataSource.Products.RemoveAt(itemIndex);
+        DataSource.Products.RemoveAt(found.idx);
     }
 
 }
