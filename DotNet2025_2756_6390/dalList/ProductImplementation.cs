@@ -13,16 +13,27 @@ internal class ProductImplementation : IProduct
         DataSource.Products.Add(final);
         return final.ProductId;
     }
-
+    public Product? read(Func<Product, bool> filter)
+    {
+        var first = from product in DataSource.Products
+                    where filter(product)
+                    select product;
+        return first.FirstOrDefault();
+    }
     public Product? Read(int id)
     {
         Product item = DataSource.Products.Find(p => p?.ProductId == id);
         return item;
     }
 
-    public List<Product?> ReadAll()
+    public List<Product?> ReadAll(Func<Product, bool>? filter = null)
     {
-        return DataSource.Products;
+        if (filter == null)
+            return DataSource.Products.ToList();
+        var dataFilter = from product in DataSource.Products
+                         where filter(product)
+                         select product;
+        return dataFilter.ToList();
     }
 
     public void Update(Product item)
@@ -40,5 +51,8 @@ internal class ProductImplementation : IProduct
             throw new IdNotFoundExcptions($"Product with Id {id} not found.");
         DataSource.Products.RemoveAt(found.idx);
     }
+
+
+
 
 }

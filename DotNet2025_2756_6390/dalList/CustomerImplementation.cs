@@ -12,16 +12,27 @@ internal class CustomerImplementation : ICustomer
         DataSource.Customers.Add(item);
         return item.CustomerId;
     }
+    public Customer? read(Func<Customer, bool> filter)
+    {
+        var first = from customer in DataSource.Customers
+                    where filter(customer)
+                    select customer;
+        return first.FirstOrDefault();
 
+    }
     public Customer? Read(int id)
     {
         Customer item = DataSource.Customers.Find(p => p?.CustomerId == id);
         return item;
     }
-
-    public List<Customer?> ReadAll()
+    public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)
     {
-        return DataSource.Customers;
+        if (filter == null)
+            return DataSource.Customers.ToList();
+        var dataFilter = from customer in DataSource.Customers
+                         where filter(customer)
+                         select customer;
+        return dataFilter.ToList();
     }
 
     public void Update(Customer item)

@@ -41,4 +41,21 @@ internal class SaleImplementation : ISale
         DataSource.Sales.RemoveAt(found.idx);
     }
 
+    public Sale? read(Func<Sale, bool> filter)
+    {
+        var first = from sale in DataSource.Sales
+                    where filter(sale)
+                    select sale;
+        return first.FirstOrDefault();
+    }
+
+    public List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
+    {
+        if (filter == null)
+            return DataSource.Sales.ToList();
+        var dataFilter = from sale in DataSource.Sales
+                         where filter(sale)
+                         select sale;
+        return dataFilter.ToList();
+    }
 }
