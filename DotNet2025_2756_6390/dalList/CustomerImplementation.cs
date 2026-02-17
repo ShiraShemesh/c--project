@@ -1,6 +1,9 @@
 ﻿using Dal;
 using DalApi;
 using DO;
+using System.Reflection;
+using Tools;
+
 namespace dalList;
 internal class CustomerImplementation : ICustomer
 {
@@ -10,20 +13,30 @@ internal class CustomerImplementation : ICustomer
         if (itemIndex > 0)
             throw new IdExisteFoundExcptions($"Customer with Id {item.CustomerId} exists");
         DataSource.Customers.Add(item);
+        LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName,
+                              MethodBase.GetCurrentMethod().Name,
+                              $"Customer with Id: {item.CustomerId} created.");
         return item.CustomerId;
     }
-    public Customer? read(Func<Customer, bool> filter)
+    public Customer? Read(Func<Customer, bool> filter)
     {
         var first = from customer in DataSource.Customers
                     where filter(customer)
                     select customer;
+        LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName,
+                              MethodBase.GetCurrentMethod().Name,
+                              $"Customer readed with filter func .");
         return first.FirstOrDefault();
 
     }
     public Customer? Read(int id)
     {
         Customer item = DataSource.Customers.Find(p => p?.CustomerId == id);
+        LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName,
+                              MethodBase.GetCurrentMethod().Name,
+                              $"Customer read by id: {id}.");
         return item;
+
     }
     public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)
     {
@@ -32,6 +45,9 @@ internal class CustomerImplementation : ICustomer
         var dataFilter = from customer in DataSource.Customers
                          where filter(customer)
                          select customer;
+        LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName,
+                              MethodBase.GetCurrentMethod().Name,
+                              $"Customer readed all.");
         return dataFilter.ToList();
     }
 
@@ -39,6 +55,9 @@ internal class CustomerImplementation : ICustomer
     {
         Delete(item.CustomerId);
         Create(item);
+        LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName,
+                              MethodBase.GetCurrentMethod().Name,
+                              $"Customer by id: {item.CustomerId} , update .");
     }
 
     public void Delete(int id)
@@ -51,6 +70,9 @@ internal class CustomerImplementation : ICustomer
         if (found is null)
             throw new IdNotFoundExcptions($"Customer with Id {id} not found.");
         DataSource.Customers.RemoveAt(found.idx);
+        LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName,
+                              MethodBase.GetCurrentMethod().Name,
+                              $"Customer by id: {id} delete .");
     }
 
 

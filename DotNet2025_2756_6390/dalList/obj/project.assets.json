@@ -11,6 +11,15 @@
         "runtime": {
           "bin/placeholder/DalFacade.dll": {}
         }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
+        }
       }
     }
   },
@@ -19,11 +28,17 @@
       "type": "project",
       "path": "../DalFacade/DalFacade.csproj",
       "msbuildProject": "../DalFacade/DalFacade.csproj"
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Tools/Tools.csproj",
+      "msbuildProject": "../Tools/Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DalFacade >= 1.0.0"
+      "DalFacade >= 1.0.0",
+      "Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,6 +75,9 @@
           "projectReferences": {
             "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj": {
               "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj"
+            },
+            "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj": {
+              "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj"
             }
           }
         }

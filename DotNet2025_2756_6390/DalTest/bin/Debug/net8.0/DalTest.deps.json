@@ -18,18 +18,27 @@
       "DalFacade/1.0.0": {
         "runtime": {
           "DalFacade.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
       "dalList/1.0.0": {
         "dependencies": {
-          "DalFacade": "1.0.0"
+          "DalFacade": "1.0.0",
+          "Tools": "1.0.0"
         },
         "runtime": {
           "dalList.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Tools/1.0.0": {
+        "runtime": {
+          "Tools.dll": {
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -48,6 +57,11 @@
       "sha512": ""
     },
     "dalList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tools/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

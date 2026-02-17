@@ -99,6 +99,9 @@
             "projectReferences": {
               "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj": {
                 "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj"
+              },
+              "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj": {
+                "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj"
               }
             }
           }
@@ -208,6 +211,22 @@
           },
           "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj": {
+      "restore": {
+        "projectUniqueName": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj",
+        "projectName": "Tools",
+        "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

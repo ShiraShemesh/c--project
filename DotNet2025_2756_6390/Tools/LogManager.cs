@@ -13,19 +13,19 @@ namespace Tools
         private static string BaseDirPath = @"Log";
         public static string getPathDir()
         {
-            return $@"{BaseDirPath}\{DateTime.Now.Month:MM}";
+            return $@"{BaseDirPath}\{DateTime.Now.Month}";
         }
         public static string getPathFile()
         {
             String fileName = $@"Log_{DateTime.Now:dd-MM-yyyy}.txt";
-            return $@"{BaseDirPath}\{DateTime.Now.Month:MM}\{fileName}";
+            return $@"{BaseDirPath}\{DateTime.Now.Month}\{fileName}";
         }
         public static void writeToLog(string projectName, string funcName, string message)
         {
-            string path = ($@"{BaseDirPath}\{getPathDir()}");
+            string path = getPathDir();
             if (!Directory.Exists(path))
                 Directory.CreateDirectory(path);
-            string pathFile = ($@"{BaseDirPath}\{getPathDir()}\{getPathFile()}");
+            string pathFile = getPathFile();
             if (!File.Exists(pathFile))
                 File.Create(pathFile).Close();
             using (StreamWriter writer = new StreamWriter(pathFile, true))

@@ -14,3 +14,21 @@ C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0
 C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\refint\dalList.dll
 C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.pdb
 C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\ref\dalList.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\dalList.deps.json
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\dalList.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\dalList.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\DalFacade.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\Tools.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\DalFacade.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\bin\Debug\net8.0\Tools.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.csproj.AssemblyReference.cache
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.AssemblyInfoInputs.cache
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.AssemblyInfo.cs
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.sourcelink.json
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.csproj.Up2Date
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\refint\dalList.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\dalList.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\dalList\obj\Debug\net8.0\ref\dalList.dll
