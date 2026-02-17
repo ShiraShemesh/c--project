@@ -77,6 +77,7 @@ internal class Program
                 case 3: DoReadAll(repo); break;
                 case 4: UpdateCustomer(repo); break;
                 case 5: DoDelete(repo); break;
+         
                 default: Console.WriteLine("Unknown action"); break;
             }
         }
