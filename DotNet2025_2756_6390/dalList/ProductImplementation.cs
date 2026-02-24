@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Tools;
 
-namespace dalList;
+namespace Dal;
 
 internal class ProductImplementation : IProduct
 {

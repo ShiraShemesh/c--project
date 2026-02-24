@@ -1,10 +1,9 @@
-﻿using Dal;
-using DalApi;
+﻿using DalApi;
 using DO;
 using System.Reflection;
 using Tools;
 
-namespace dalList;
+namespace Dal;
 internal class CustomerImplementation : ICustomer
 {
     public int Create(Customer item)

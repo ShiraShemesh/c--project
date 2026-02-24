@@ -1,18 +1,17 @@
 ﻿using Dal;
 using DalApi;
-using dalList;
 using DO;
 
 namespace DalTest;
 internal class Program
 {
-    private static readonly IDal s_dal = new DalList();
+    private static readonly IDal s_dal = DalApi.Factory.Get;
 
     static void Main(string[] args)
     {
         try
         {
-            Initialization.Initialize(s_dal);
+            Initialization.Initialize();
 
             
             while (true)

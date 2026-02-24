@@ -1,0 +1,19 @@
+- csproj"
+
+>
+
+/>
+
+Microsoft Visual Studio
+
+X
+
+X
+
+A project with an Output Type of Class Library cannot be started directly.
+
+In order to debug this project, add an executable project to this solution which references the library project. Set the executable project as the startup project.
+
+confirmation
+
+command to run analyzers.

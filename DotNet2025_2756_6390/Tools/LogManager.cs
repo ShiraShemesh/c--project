@@ -11,6 +11,7 @@ namespace Tools
     public class LogManager
     {
         private static string BaseDirPath = @"Log";
+        
         public static string getPathDir()
         {
             return $@"{BaseDirPath}\{DateTime.Now.Month}";

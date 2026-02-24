@@ -7,9 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalTest", "DalTest\DalTest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalFacade", "DalFacade\DalFacade.csproj", "{86F533FE-0114-4FC2-988F-CDC87B96DEB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalList", "dalList\dalList.csproj", "{322D6B24-242E-492B-971C-7280C00FC74D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalList", "dalList\DalList.csproj", "{322D6B24-242E-492B-971C-7280C00FC74D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{AE3C8A57-C120-4032-8061-F8DF71E2245D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xml", "xml", "{EF95F754-92F3-4B92-A049-75EDD6D8297E}"
+	ProjectSection(SolutionItems) = preProject
+		xml\dal-config.xml = xml\dal-config.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

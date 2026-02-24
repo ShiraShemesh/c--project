@@ -30,11 +30,11 @@ internal static class Initialization
         sale.Create(new Sale { ProductId = 102, RequiedQuantity = 1, PriceWhithSale = 99.9, IsClub = false, Startsale = new DateTime(2024, 4, 1), FinishSale = new DateTime(2024, 4, 7) });
         sale.Create(new Sale { ProductId = 103, RequiedQuantity = 2, PriceWhithSale = 75.0, IsClub = true, Startsale = new DateTime(2024, 5, 20), FinishSale = new DateTime(2024, 6, 20) });
     }
-    public static void Initialize(IDal dal)
+    public static void Initialize()
     {
-        s_dal = dal;
-        CreateCustomer(dal.Customer);
-        CreateProduct(dal.Product);
-        CreateSale(dal.Sale);
+        s_dal = DalApi.Factory.Get;
+        CreateCustomer(s_dal.Customer);
+        CreateProduct(s_dal.Product);
+        CreateSale(s_dal.Sale);
     }
 }

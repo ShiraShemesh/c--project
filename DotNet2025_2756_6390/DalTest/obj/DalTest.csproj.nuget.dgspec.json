@@ -25,7 +25,8 @@
           "net8.0"
         ],
         "sources": {
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -65,16 +66,16 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\dalList.csproj": {
+    "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\dalList.csproj",
-        "projectName": "dalList",
-        "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\dalList.csproj",
+        "projectUniqueName": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\DalList.csproj",
+        "projectName": "DalList",
+        "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\DalList.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
         "outputPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,7 +91,8 @@
           "net8.0"
         ],
         "sources": {
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -116,7 +118,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -137,7 +139,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -162,7 +164,8 @@
           "net8.0"
         ],
         "sources": {
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -172,8 +175,11 @@
               "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj": {
                 "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj"
               },
-              "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\dalList.csproj": {
-                "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\dalList.csproj"
+              "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\DalList.csproj": {
+                "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\dalList\\DalList.csproj"
+              },
+              "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj": {
+                "projectPath": "Z:\\יד תשפו\\שמש שירה\\c# project\\c--project-main\\c--project-main\\c--project\\DotNet2025_2756_6390\\Tools\\Tools.csproj"
               }
             }
           }
@@ -188,7 +194,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -209,7 +215,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
