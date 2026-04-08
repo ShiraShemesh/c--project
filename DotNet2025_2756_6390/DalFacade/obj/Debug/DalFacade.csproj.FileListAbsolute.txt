@@ -22,6 +22,7 @@ Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--p
 Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalFacade\obj\Debug\refint\DalFacade.dll
 Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalFacade\obj\Debug\DalFacade.pdb
 Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalFacade\obj\Debug\ref\DalFacade.dll
+<<<<<<< HEAD
 C:\bin\DalFacade.deps.json
 C:\bin\DalFacade.dll
 C:\bin\DalFacade.pdb
@@ -36,3 +37,5 @@ C:\Users\user\Downloads\c--project-main\c--project-main\DotNet2025_2756_6390\Dal
 C:\Users\user\Downloads\c--project-main\c--project-main\DotNet2025_2756_6390\bin\DalFacade.deps.json
 C:\Users\user\Downloads\c--project-main\c--project-main\DotNet2025_2756_6390\bin\DalFacade.dll
 C:\Users\user\Downloads\c--project-main\c--project-main\DotNet2025_2756_6390\bin\DalFacade.pdb
+=======
+>>>>>>> 7b628ab1cd0baaad0ef6ab5adc671f8b97abf31e
