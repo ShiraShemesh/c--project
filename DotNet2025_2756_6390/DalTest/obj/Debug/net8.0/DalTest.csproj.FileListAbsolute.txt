@@ -19,3 +19,26 @@ C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0
 C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.pdb
 C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
 C:\Users\user\Documents\c#\project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\ref\DalTest.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\DalTest.exe
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\DalTest.deps.json
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\DalTest.runtimeconfig.json
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\DalTest.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\DalTest.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\DalFacade.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\dalList.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\Tools.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\DalFacade.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\dalList.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\bin\Debug\net8.0\Tools.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.csproj.AssemblyReference.cache
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfoInputs.cache
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfo.cs
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.sourcelink.json
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.csproj.Up2Date
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\refint\DalTest.dll
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.pdb
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
+Z:\יד תשפו\שמש שירה\c# project\c--project-main\c--project-main\c--project\DotNet2025_2756_6390\DalTest\obj\Debug\net8.0\ref\DalTest.dll

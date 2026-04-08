@@ -1,10 +1,19 @@
-﻿using DalApi;
+﻿using System.ComponentModel;
+using DalApi;
 
-namespace dalList;
+namespace Dal;
 
-public class DalList : IDal
+internal sealed class DalList : IDal
 {
     public IProduct Product => new ProductImplementation();
     public ICustomer Customer => new CustomerImplementation();
     public ISale Sale => new SaleImplementation();
+    private static readonly IDal instance = new DalList();
+    public static IDal Instance { get => instance; }
+
+
+    private DalList()
+    {
+
+    }
 }

@@ -13,12 +13,8 @@
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,7 +40,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -60,99 +57,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\dalList.csproj": {
+    "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\dalList.csproj",
-        "projectName": "dalList",
-        "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\dalList.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\DalList.csproj",
+        "projectName": "DalList",
+        "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\DalList.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalTest\\DalTest.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalTest\\DalTest.csproj",
-        "projectName": "DalTest",
-        "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalTest\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,8 +108,8 @@
               "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj": {
                 "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj"
               },
-              "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\dalList.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\dalList.csproj"
+              "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj"
               }
             }
           }
@@ -185,7 +123,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -201,13 +140,133 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalTest\\DalTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalTest\\DalTest.csproj",
+        "projectName": "DalTest",
+        "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalFacade\\DalFacade.csproj"
+              },
+              "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\DalList.csproj"
+              },
+              "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj",
+        "projectName": "Tools",
+        "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

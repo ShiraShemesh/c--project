@@ -1,19 +1,17 @@
-﻿
-using Dal;
+﻿using Dal;
 using DalApi;
-using dalList;
 using DO;
 
 namespace DalTest;
 internal class Program
 {
-    private static readonly IDal s_dal = new DalList();
+    private static readonly IDal s_dal = DalApi.Factory.Get;
 
     static void Main(string[] args)
     {
         try
         {
-            Initialization.Initialize(s_dal);
+            Initialization.Initialize();
 
             
             while (true)
@@ -34,7 +32,7 @@ internal class Program
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"An error occurred: {ex}");
+            Console.WriteLine($"An error occurred: {ex.Message}");
         }
     }
 
@@ -78,6 +76,7 @@ internal class Program
                 case 3: DoReadAll(repo); break;
                 case 4: UpdateCustomer(repo); break;
                 case 5: DoDelete(repo); break;
+         
                 default: Console.WriteLine("Unknown action"); break;
             }
         }
