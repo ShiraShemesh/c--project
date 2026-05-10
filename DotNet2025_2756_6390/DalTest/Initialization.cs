@@ -2,7 +2,7 @@
 using DalApi;
 namespace Dal;
 
-internal static class Initialization
+public static class Initialization
 {
 
     private static IDal? s_dal;
@@ -24,11 +24,11 @@ internal static class Initialization
     }
     private static void CreateSale(ISale sale)
     {
-        sale.Create(new Sale { ProductId = 101, RequiedQuantity = 2, PriceWhithSale = 150.0, IsClub = true, Startsale = new DateTime(2024, 1, 1), FinishSale = new DateTime(2024, 1, 31) });
-        sale.Create(new Sale { ProductId = 104, RequiedQuantity = 1, PriceWhithSale = 450.0, IsClub = false, Startsale = new DateTime(2024, 2, 10), FinishSale = new DateTime(2024, 2, 20) });
-        sale.Create(new Sale { ProductId = 105, RequiedQuantity = 3, PriceWhithSale = 200.0, IsClub = true, Startsale = new DateTime(2024, 3, 5), FinishSale = new DateTime(2024, 3, 15) });
-        sale.Create(new Sale { ProductId = 102, RequiedQuantity = 1, PriceWhithSale = 99.9, IsClub = false, Startsale = new DateTime(2024, 4, 1), FinishSale = new DateTime(2024, 4, 7) });
-        sale.Create(new Sale { ProductId = 103, RequiedQuantity = 2, PriceWhithSale = 75.0, IsClub = true, Startsale = new DateTime(2024, 5, 20), FinishSale = new DateTime(2024, 6, 20) });
+        sale.Create(new Sale { ProductId = 124, RequiedQuantity = 2, PriceWhithSale = 3, IsClub = true, Startsale = new DateTime(2024, 1, 1), FinishSale = new DateTime(2030, 1, 31) });
+        sale.Create(new Sale { ProductId = 125, RequiedQuantity = 1, PriceWhithSale = 450.0, IsClub = false, Startsale = new DateTime(2024, 2, 10), FinishSale = new DateTime(2024, 2, 20) });
+        sale.Create(new Sale { ProductId = 124, RequiedQuantity = 3, PriceWhithSale = 200.0, IsClub = true, Startsale = new DateTime(2024, 3, 5), FinishSale = new DateTime(2024, 3, 15) });
+        sale.Create(new Sale { ProductId = 125, RequiedQuantity = 1, PriceWhithSale = 99.9, IsClub = false, Startsale = new DateTime(2024, 4, 1), FinishSale = new DateTime(2024, 4, 7) });
+        sale.Create(new Sale { ProductId = 125, RequiedQuantity = 2, PriceWhithSale = 75.0, IsClub = true, Startsale = new DateTime(2024, 5, 20), FinishSale = new DateTime(2024, 6, 20) });
     }
     public static void Initialize()
     {
