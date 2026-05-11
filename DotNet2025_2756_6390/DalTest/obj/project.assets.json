@@ -26,6 +26,19 @@
           "bin/placeholder/DalList.dll": {}
         }
       },
+      "DalXml/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DalFacade": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalXml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalXml.dll": {}
+        }
+      },
       "Tools/1.0.0": {
         "type": "project",
         "compile": {
@@ -48,6 +61,11 @@
       "path": "../dalList/DalList.csproj",
       "msbuildProject": "../dalList/DalList.csproj"
     },
+    "DalXml/1.0.0": {
+      "type": "project",
+      "path": "../DalXml/DalXml.csproj",
+      "msbuildProject": "../DalXml/DalXml.csproj"
+    },
     "Tools/1.0.0": {
       "type": "project",
       "path": "../Tools/Tools.csproj",
@@ -58,6 +76,7 @@
     "net8.0": [
       "DalFacade >= 1.0.0",
       "DalList >= 1.0.0",
+      "DalXml >= 1.0.0",
       "Tools >= 1.0.0"
     ]
   },
@@ -95,6 +114,9 @@
             },
             "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\DalList.csproj": {
               "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\dalList\\DalList.csproj"
+            },
+            "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalXml\\DalXml.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\DalXml\\DalXml.csproj"
             },
             "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj": {
               "projectPath": "C:\\Users\\user\\Documents\\c#\\project\\DotNet2025_2756_6390\\Tools\\Tools.csproj"

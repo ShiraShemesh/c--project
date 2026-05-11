@@ -12,7 +12,6 @@ internal class Program
     {
         try
         {
-            // Initialize data from DalTest
             Initialization.Initialize();
             Console.WriteLine("BlTest");
             while (true)

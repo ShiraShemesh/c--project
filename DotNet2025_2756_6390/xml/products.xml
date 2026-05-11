@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>1</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>2</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>3</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>4</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>5</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>1</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>2</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>3</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>4</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>5</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>50</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>12</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Kids Sandals</Name>
+    <Category>CHILDREN</Category>
+    <Price>45.5</Price>
+    <QuantityInStock>30</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Leather Boots</Name>
+    <Category>MEN</Category>
+    <Price>150</Price>
+    <QuantityInStock>10</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Casual Sneakers</Name>
+    <Category>WOMEN</Category>
+    <Price>75</Price>
+    <QuantityInStock>25</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>Running Shoes</Name>
+    <Category>SPORTS</Category>
+    <Price>89.9</Price>
+    <QuantityInStock>45</QuantityInStock>
+  </Product>
+  <Product>
+    <ProductId>0</ProductId>
+    <Name>High Heels</Name>
+    <Category>ELEGANT</Category>
+    <Price>120</Price>
+    <QuantityInStock>8</QuantityInStock>
+  </Product>
+</ArrayOfProduct>

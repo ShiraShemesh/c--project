@@ -7,41 +7,6 @@ namespace BO
 {
     internal static class Tools
     {
-        public static string ToStringProperty<T>(this T obj)
-        {
-            // 1. תנאי עצירה למקרה שאין ערך
-            if (obj == null) return "null";
-
-            // 2. טיפול באוספים (רשימות/מערכים) - נכנסים לעומק הרשימה
-            if (obj is IEnumerable enumerable && obj is not string)
-            {
-                var items = enumerable.Cast<object>().Select(item => item.ToStringProperty());
-                return $"[{string.Join(", ", items)}]";
-            }
-
-            Type type = obj.GetType();
-
-            // 3. טיפול בסוגים בסיסיים (מספרים, בוליאני, מחרוזות)
-            if (type.IsPrimitive || type.IsValueType || type == typeof(string))
-            {
-                return type == typeof(string) ? $"\"{obj}\"" : obj.ToString();
-            }
-
-            // 4. חקירת האובייקט (Reflection) - שליפת כל התכונות הציבוריות
-            var properties = type.GetProperties();
-
-            // 5. הרכבת המחרוזת: שם התכונה והערך שלה
-            var propStrings = properties.Select(prop =>
-            {
-                object value = prop.GetValue(obj);
-                // קריאה חוזרת למתודה כדי לטפל במקרה שהערך הוא בעצמו אובייקט מורכב או רשימה
-                string valueString = value.ToStringProperty();
-                return $"{prop.Name}: {valueString}";
-            });
-
-            // עטיפת התוצאה בסוגריים מסולסלים כדי להראות שזה אובייקט
-            return $"{{ {string.Join(", ", propStrings)} }}";
-        }
 
         public static BO.Customer convert(this DO.Customer customer)
         {

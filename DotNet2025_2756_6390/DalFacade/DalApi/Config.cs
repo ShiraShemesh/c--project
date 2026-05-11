@@ -1,6 +1,7 @@
 ﻿namespace DalApi;
 using System.IO;
 using System.Xml.Linq;
+using System.Reflection;
 
 static class DalConfig
 {
@@ -9,7 +10,22 @@ static class DalConfig
 
     static DalConfig()
     {
-        XElement dalConfig = XElement.Load(Path.Combine(AppContext.BaseDirectory, "dal-config.xml")) ??
+        // קבל את ה-assembly location ל-DalFacade
+        string assemblyLocation = Assembly.GetExecutingAssembly().Location;
+        string assemblyDir = Path.GetDirectoryName(assemblyLocation) ?? AppContext.BaseDirectory;
+
+        string configPath = Path.Combine(assemblyDir, "dal-config.xml");
+
+        Console.WriteLine($"Assembly Location: {assemblyLocation}");
+        Console.WriteLine($"Assembly Dir: {assemblyDir}");
+        Console.WriteLine($"Checking: {configPath} - Exists: {File.Exists(configPath)}");
+
+        if (!File.Exists(configPath))
+        {
+            throw new DalConfigException($"dal-config.xml file not found at: {configPath}");
+        }
+
+        XElement dalConfig = XElement.Load(configPath) ??
             throw new DalConfigException("dal-config.xml file is not found");
         s_dalName = dalConfig.Element("dal")?.Value ?? throw new DalConfigException("<dal> element is missing");
         var packages = dalConfig.Element("dal-packages")?.Elements() ??
